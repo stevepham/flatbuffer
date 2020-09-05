@@ -1,0 +1,45 @@
+{
+  "id": "0123456789",
+  "name": "Bruno",
+  "year_old": 26,
+  "address": {
+    "street": "9A",
+    "district": "1",
+    "city": "Manchester"
+  },
+  "contact": {
+    "phone": "0912345678",
+    "email": "bruno@mail.com"
+  },
+  "relatives": [
+    {
+      "id": "0123456788",
+      "name": "Mason GreenWood",
+      "year_old": 19,
+      "address": {
+        "street": "8A",
+        "district": "Bombo",
+        "city": "Manchester"
+      },
+      "contact": {
+        "phone": "0912345677",
+        "email": "mason@mail.com"
+      },
+      "relatives": []
+    },
+    {
+      "id": "0123456787",
+      "name": "Martial",
+      "year_old": 25,
+      "address": {
+        "street": "7A",
+        "district": "Hamsphire",
+        "city": "Manchester"
+      },
+      "contact": {
+        "phone": "01293123123",
+        "email": "martial@mail.com"
+      }
+    }
+  ]
+}

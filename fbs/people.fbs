@@ -1,0 +1,23 @@
+namespace com.ht117.flatbuffer.model;
+
+table People {
+    id: string;
+    name: string;
+    year_old: uint;
+    address: Address;
+    contact: Contact;
+    relatives: [People];
+}
+
+table Address {
+    street: string;
+    district: string;
+    city: string;
+}
+
+table Contact {
+    phone: string;
+    email: string;
+}
+
+root_type People;
